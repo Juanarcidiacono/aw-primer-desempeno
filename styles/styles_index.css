@@ -9,6 +9,7 @@ header {
     background-color: #f2f2f2; /* Color de fondo gris claro */
     border-radius: 10px; /* Radio de borde redondeado */
     display: inline-block; /* Para que el contenedor se ajuste al tamaño de la imagen */
+    height: 350px;
 }
 
 .logo {
@@ -38,9 +39,6 @@ header {
     height: auto;
 }
 
-.carousel {
-    /* Estilos para tu carrusel de imágenes */
-}
 
 .nav-links {
     list-style-type: none;

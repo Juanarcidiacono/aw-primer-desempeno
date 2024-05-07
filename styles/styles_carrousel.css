@@ -1,30 +1,44 @@
-/* styles.css */
+.center-section {
+    overflow-x: scroll;
+    scroll-snap-type: x mandatory;
+    width: 100%;
+    white-space: nowrap;
+    scroll-behavior: smooth; /* Desplazamiento suave */
+}
+
 .slide {
-    position: relative;
-    /* Establece el tamaño del carrusel */
-    width: 800px;
-    height: 400px;
-    /* Otros estilos (sombra, margen, etc.) */
-    /* ... */
+    display: inline-block;
+    width: 100%;
+    scroll-snap-align: start;
+    flex: 0 0 auto; /* Asegura que cada diapositiva tenga el mismo ancho */
+    scroll-snap-align: start;
 }
 
-/* Estilos para las imágenes */
-.slide-item img {
-    display: block;
-    height: auto;
-    max-width: 100%;
+.slide img {
+    width: 100%;
+    height: 200px
+    object-fit: cover; 
 }
 
-/* Estilos para los indicadores (puntos) */
-.slide-circulo {
-    font-size: 35px;
-    color: #828282;
-    cursor: pointer;
+.navigation {
+    text-align: center;
+    margin-top: 10px;
 }
 
-/* Cambia el color del punto activo */
-#slide-1:checked ~ .slide-indicador li:nth-child(1) .slide-circulo,
-#slide-2:checked ~ .slide-indicador li:nth-child(2) .slide-circulo,
-#slide-3:checked ~ .slide-indicador li:nth-child(3) .slide-circulo {
-    color: #428bca;
+.navigation a {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-color: #ccc;
+    border-radius: 50%;
+    margin: 0 5px;
+    text-align: center;
+    line-height: 20px;
+    text-decoration: none;
+    color: #333;
+}
+
+.navigation a:hover {
+    background-color: #666;
+    color: #fff;
 }

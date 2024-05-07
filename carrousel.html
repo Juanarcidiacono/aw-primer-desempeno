@@ -7,29 +7,20 @@
     <title>Carrusel de Imágenes</title>
 </head>
 <body>
-    <div class="slide">
-        <input type="radio" name="slide" id="slide-1" checked>
-        <input type="radio" name="slide" id="slide-2">
-        <input type="radio" name="slide" id="slide-3">
-        <div class="slide-inner">
-            <div class="slide-item">
-                <img src="resources/imgs/jardin1.jpg" alt="Imagen 1">
-            </div>
-            <div class="slide-item">
-                <img src="resources/imgs/jardin2.jpg" alt="Imagen 2">
-            </div>
-            <div class="slide-item">
-                <img src="resources/imgs/jardin454.jpg" alt="Imagen 3">
-            </div>
-            <div class="slide-item">
-                <img src="resources/imgs/jardineria-parquizaciones-riego-cordoba-onda-verde_490c08ef7b_3.jpg" alt="Imagen 3">
-            </div>
+    <div class="carousel">
+        <div id="slide1" class="slide">
+            <img src="resources/imgs/jardin2.jpg" alt="Imagen 1">
         </div>
-        <div class="slide-indicador">
-            <label class="slide-circulo" for="slide-1">●</label>
-            <label class="slide-circulo" for="slide-2">●</label>
-            <label class="slide-circulo" for="slide-3">●</label>
+        <div id="slide2" class="slide">
+            <img src="resources/imgs/jardin1.jpg" alt="Imagen 2">
         </div>
     </div>
+    
+    <div class="navigation">
+        <a href="#slide1">1</a>
+        <a href="#slide2">2</a>
+        <a href="#slide3">3</a>
+    </div>
+    
 </body>
 </html>

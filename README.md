@@ -24,3 +24,6 @@
 6. Maqueta con Flex básicamente (puedes utilizar Bootstrap como alternativa si te resulta cómodo).
 7. Entregar en la fecha indicada en el campus.
 8. Todos los archivos (.html, .css, imágenes, etc.) deben estar comprimidos con tu nombre y apellido, de manera tal que solo publiques un archivo en el link indicado en el campus.
+
+
+![1715107196642](image/README/1715107196642.png)

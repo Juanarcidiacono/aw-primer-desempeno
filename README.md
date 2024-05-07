@@ -12,7 +12,7 @@
 - Evaluar la comprensión de los temas y el uso correcto del lenguaje técnico.
 - Evaluar la capacidad de relacionar los temas teóricos con la práctica.
 - Desempeño general de los conocimientos adquiridos.
-- Codificar en forma correcta
+- Codificar en forma correcta.
 
 ## Consigna
 
@@ -25,10 +25,10 @@
 7. Entregar en la fecha indicada en el campus.
 8. Todos los archivos (.html, .css, imágenes, etc.) deben estar comprimidos con tu nombre y apellido, de manera tal que solo publiques un archivo en el link indicado en el campus.
 
-### Pagina de inicio
+### Página de inicio
 
-![1715107196642](image/README/1715107196642.png)
+![1715107196642](image/README/1715107196642.png "pagina de inicio")
 
-### Pagina de contacto
+### Página de contacto
 
-![1715107268125](https://file+.vscode-resource.vscode-cdn.net/Users/juanarcidiacono/Library/CloudStorage/OneDrive-Personal/Desarrollo%20de%20software/Semestres/Semestre%203/Aplicaciones%20Web/Primer%20desempe%C3%B1o/Arcidiacono%20Juan%20Ignacio%20-%20Resolucion%20Primer%20Desempe%C3%B1o/image/README/1715107268125.png)
+![1715107268125](https://file+.vscode-resource.vscode-cdn.net/Users/juanarcidiacono/Library/CloudStorage/OneDrive-Personal/Desarrollo%20de%20software/Semestres/Semestre%203/Aplicaciones%20Web/Primer%20desempe%C3%B1o/Arcidiacono%20Juan%20Ignacio%20-%20Resolucion%20Primer%20Desempe%C3%B1o/image/README/1715107268125.png "pagina de contacto")

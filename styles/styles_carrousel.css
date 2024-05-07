@@ -1,0 +1,30 @@
+/* styles.css */
+.slide {
+    position: relative;
+    /* Establece el tamaño del carrusel */
+    width: 800px;
+    height: 400px;
+    /* Otros estilos (sombra, margen, etc.) */
+    /* ... */
+}
+
+/* Estilos para las imágenes */
+.slide-item img {
+    display: block;
+    height: auto;
+    max-width: 100%;
+}
+
+/* Estilos para los indicadores (puntos) */
+.slide-circulo {
+    font-size: 35px;
+    color: #828282;
+    cursor: pointer;
+}
+
+/* Cambia el color del punto activo */
+#slide-1:checked ~ .slide-indicador li:nth-child(1) .slide-circulo,
+#slide-2:checked ~ .slide-indicador li:nth-child(2) .slide-circulo,
+#slide-3:checked ~ .slide-indicador li:nth-child(3) .slide-circulo {
+    color: #428bca;
+}

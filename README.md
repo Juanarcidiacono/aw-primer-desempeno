@@ -31,4 +31,4 @@
 
 ### Página de contacto
 
-![1715107268125](https://file+.vscode-resource.vscode-cdn.net/Users/juanarcidiacono/Library/CloudStorage/OneDrive-Personal/Desarrollo%20de%20software/Semestres/Semestre%203/Aplicaciones%20Web/Primer%20desempe%C3%B1o/Arcidiacono%20Juan%20Ignacio%20-%20Resolucion%20Primer%20Desempe%C3%B1o/image/README/1715107268125.png "pagina de contacto")
+![1715107268125](image/README/1715107268125.png "pagina de contacto")

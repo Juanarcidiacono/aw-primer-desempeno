@@ -7,7 +7,7 @@ header {
 
 .rectangulo {
     width: 100px; /* Ancho del rectángulo */
-    height: 50px; /* Altura del rectángulo */
+    height: 100%; /* Altura del rectángulo */
     background-color: #888; /* Color de fondo gris oscuro */
     border-radius: 10px; /* Bordes redondeados */
     position: relative; /* Necesario para posicionar el carrusel */
@@ -107,3 +107,71 @@ header {
 .next {
     right: 0;
 }
+
+
+        /* Estilos para el contenedor principal */
+        .contenedor {
+            max-width: 1200px; /* Ancho máximo del contenedor */
+            margin: 0 auto; /* Centra el contenedor horizontalmente */
+            padding: 20px; /* Espacio interior */
+        }
+
+        /* Estilos para los bloques */
+        .bloque {
+            width: calc(25.33% - 20px); /* Ancho de cada bloque */
+            margin: 10px; /* Espacio entre bloques */
+            float: left; /* Alinear bloques en línea */
+            background-color: #f2f2f2; /* Color de fondo gris claro */
+            border: 1px solid #ccc; /* Borde gris */
+            border-radius: 5px; /* Bordes redondeados */
+            overflow: hidden; /* Oculta el contenido que se desborde */
+        }
+
+        /* Estilos para el texto */
+        .bloque p {
+            padding: 10px; /* Espacio interior para el texto */
+            margin: 0; /* Elimina el margen predeterminado */
+        }
+
+        /* Estilos para la imagen */
+        .bloque img {
+            width: 100%; /* Ancho de la imagen al 100% del bloque */
+            height: 200px; /* Altura fija de la imagen */
+            display: block; /* Hace que la imagen sea un elemento de bloque */
+            object-fit: cover; /* Ajusta la imagen manteniendo la relación de aspecto y recortando si es necesario */
+        }
+
+
+        
+        /*
+.column {
+    float: left;
+    width: 33.33%;
+}
+
+.column img {
+    max-width: 100%;
+    height: auto;
+  }
+ 
+  */
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  @media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+    }
+    
+  }
+
+  .row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+
